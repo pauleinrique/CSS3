@@ -1,0 +1,26 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    width: 600px;
+}
+th, td{
+    padding: 7px;
+}
+th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid gray;
+    text-align: left;
+} 
+tr.alternado{       
+    background-color: #efefef;    
+
+}
+.numero{
+    text-align: right;
+}
+tr:hover{
+    background-color: #c3e6e5;
+}
