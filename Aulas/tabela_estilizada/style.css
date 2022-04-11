@@ -4,6 +4,9 @@ body{
 table{
     width: 600px;
 }
+.center{
+    margin: 0 auto;
+}
 th, td{
     padding: 7px;
 }
