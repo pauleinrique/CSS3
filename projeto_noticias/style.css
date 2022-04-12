@@ -127,6 +127,66 @@ h2{
     color: #fff;
     padding: 5px;
 }
+/* lateral ul */
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover{
+    color: #a1a1a1;
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+label{  
+    display: block;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+.email{
+    margin-bottom: 5px;
+}
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    margin-top: 5px;
+    cursor: pointer;
+}
+/* Formatando imagens */    
+img.imagem-principal{
+    width: 98%;
+    border: 2px solid #dfdfdf;
+    margin-top: 5px;
+}
+
+/* formatando cabeçalhos */
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+h3.destaque{
+    background-color: #b10333 ;
+    color: #fff;
+}
+h3.entrevista{
+    background-color: #b10333 ;
+    color: #000;
+}
+
 /* Rodape */
 #container-rodape{
     background: #294c71;
